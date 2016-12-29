@@ -33,6 +33,10 @@ a:hover {
 	text-decoration: none;
 }
 
+figure {
+	margin: 0 auto;
+}
+
 sup {
 	position: relative;
 	top: -0.5em;
@@ -60,6 +64,25 @@ article > header h1 {
 section.footnotes p {
 	font: 14px/24px "PT Serif", serif;
 	margin: 0;
+}
+
+section.figure {
+	background: #f3f3f3;
+	font: 14px/24px sans-serif;
+	padding: 18px 6px;
+	margin: 18px 0;
+}
+
+section.figure figure > img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	margin: 0 auto;
+}
+
+section.figure figcaption {
+	padding: 12px 12px 0;
 }
 
 a.page {
@@ -92,16 +115,12 @@ article > footer p {
 	font: 14px/24px "PT Serif", serif;
 	margin: 9px 0;
 }
-
+/*
 section.plate {
 	margin: 36px 0;
 }
 
-figure {
-	margin: 0 auto;
-}
-
-figure > img {
+section.plate figure > img {
 	display: block;
 	width: auto;
 	height: auto;
@@ -109,6 +128,7 @@ figure > img {
 	border: 1px solid #000;
 	margin: 0 auto;
 }
+*/
 </style>
 </head>
 <body>
@@ -117,7 +137,7 @@ figure > img {
 <h1>Ueber die Nerven der menschlichen Haut.</h1>
 <p>[<i>Virchows Arch.</i> <b>44</b>, 325–337 (1868).]</p>
 <p>Von <em>Paul Langerhans</em>, Stud. med. in Berlin.<br>
-(Hierzu <a href="#tafel-xii">Taf. XII.</a>)</p>
+(Hierzu Taf. XII.)</p>
 </header>
 
 <div class="body">
@@ -232,7 +252,7 @@ vordringend, in die oberen Lagen des Stratum reticulare der Lederhaut
  ein, um sich hier ziemlich schnell in ein engmaschiges überaus
  reiches Geflecht vollkommen markloser Fasern aufzulösen. Die
 Art dieser Auflösung, sowie das plötzliche Aufhören des Markes
-habe ich in <a href="#tafel-xii">Taf. XII.</a> Fig. 2 dargestellt; sie ist nach einem Präparate
+habe ich in Taf. XII. <a href="#fig-2">Fig. 2</a> dargestellt; sie ist nach einem Präparate
  von der Rückenhaut gezeichnet, also von einer Stelle, an der
 <a class="page" data-number="328"></a>
 die markhaltigen Fasern sehr gegen die marklosen zurücktreten.
@@ -243,8 +263,8 @@ in die einzelnen Fasern eingelagert finden, als auch an den Stellen,
 an denen mehrere zusammenstossen. Die Fasern selbst erscheinen
 theils als blassrothe ziemlich breite Streifen, theils als ganz feine
 Fäden, denen nur seitlich Kerne angelagert sind. Ich verweise
-hier auf die Darstellung in Fig. 1, welche derselben Rückenhaut
-entnommen ist, wie Fig. 2. Während nun dies Netz, das aus mehreren
+hier auf die Darstellung in <a href="#fig-1">Fig. 1</a>, welche derselben Rückenhaut
+entnommen ist, wie <a href="#fig-2">Fig. 2</a>. Während nun dies Netz, das aus mehreren
  über einander liegenden Schichten besteht, anfangs aus meist
 mehrere Fasern enthaltenden Zügen gebildet ist, löst es sich nach
 dem Rete Malpighii zu in immer feinere Fasern auf, die schliesslich
@@ -271,6 +291,29 @@ leicht zu constatirende Zusammenhang der letzteren mit dem Geflecht
  der sternförmigen Elemente des Bindegewebes, der Nerven
 mit den so charakteristischen langen Fasern sichern auch hier
 gegen eine solche Täuschung.</p>
+
+<section class="figure">
+<figure id="fig-1">
+<img src="figures/fig-1.png" alt="Fig. 1" width="540" height="450">
+<figcaption>
+<strong>Fig. 1. Theil des Nervennetzes unter den Hautpapillen.</strong> Vom Rücken. Der Deutlichkeit
+ wegen sind die Bindegewebskörper nicht mitgezeichnet. Flachschnitt.
+ 300/1.
+</figcaption>
+</figure>
+</section>
+
+<section class="figure">
+<figure id="fig-2">
+<img src="figures/fig-2.png" alt="Fig. 2" width="517.5" height="585">
+<figcaption>
+<strong>Fig. 2. Verästelung eines aufwärts steigenden Nervenstammes; Querschnitt durch
+ein Stück Rückenhaut.</strong> 300/1. <em>a</em> Aufhören des Nervenmarkes an einer
+doppelt contourirten Faser. <em>b</em> Anhäufung von Kernen im Laufe der Nervenfasern.
+ <em>c</em> Grenzlinie zwischen Rete und Corium. <em>v</em> Blutgefässe.
+</figcaption>
+</figure>
+</section>
 
 <p>Die Verhältnisse des hier geschilderten Netzes blasser Nerven
 entsprechen vollkommen den in der Haut der kleinen Säugethiere
@@ -304,12 +347,12 @@ kann.</p>
 <p>Man sieht nun von den feinsten und oberflächlichsten Lagen
 des beschriebenen Netzes markloser Nervenfasern leicht feine nervöse
  Fasern <em>die Grenze der Lederhaut überschreiten und
-in das Rete Malpighii eintreten</em> (Fig. 3). Dies gilt sowohl
+in das Rete Malpighii eintreten</em> (<a href="#fig-3">Fig. 3</a>). Dies gilt sowohl
 für die Stellen, an denen keine Papillen sich finden, als für die
 Hautprovinzen, welche mit grösseren Papillen versehen sind. In
 die letzteren entsenden die in die Papillen eingetretenen Nerven
 die erwähnten feinen Fasern, und eine solche Stelle ist es, der
-die Zeichnung in Fig. 3 entspricht. Auf die Möglichkeit, ja Wahrscheinlichkeit
+die Zeichnung in <a href="#fig-3">Fig. 3</a> entspricht. Auf die Möglichkeit, ja Wahrscheinlichkeit
  eines solchen Verhaltens der Nerven hat <em>Kölliker</em>
 in der neuesten Auflage seiner Gewebelehre ausdrücklich hingewiesen,
  und die Beschreibung, die er ebenda (S. 111) von den
@@ -320,6 +363,16 @@ Verhaltens ist die Nickhaut des Frosches, an der man mit der
 grössten Leichtigkeit den Eintritt der Nerven in das Epithel fest
 stellen kann. Der weiteren Verfolgung dagegen stellen sich auch
 hier unerwartete Schwierigkeiten entgegen.<p>
+
+<section class="figure">
+<figure id="fig-3">
+<img src="figures/fig-3.png" alt="Fig. 3" width="390" height="285">
+<figcaption>
+<strong>Fig. 3. Eintritt feiner Nervenfasern in das Rete.</strong> Querschnitt durch eine Zehenpapille.
+ 650/1.
+</figcaption>
+</figure>
+</section>
 
 <p>So leicht sich im Allgemeinen der Eintritt von Nervenfasern
 in das Rete Malphighii feststellen lässt, so schwer ist die Verfolgung
@@ -380,7 +433,7 @@ der Sitzungsber. der kgl. Akad. der Wissensch. II. Abth. Juni-Heft. Jahrgang
 birnförmige Zellen im Epithel der Harnblasenschleimhaut beschrieben,
  welche mit den Nerven in Zusammenhang stehen.</p>
 
-<p>Unsere dunklen Körper (<a href="#tafel-xii">Taf. XII.</a> Fig. 4) zeigen eine höchst
+<p>Unsere dunklen Körper (Taf. XII. <a href="#fig-4">Fig. 4</a>) zeigen eine höchst
 auffallende Gestalt, welche einem Stern meist so unähnlich ist,
 dass ich die Bezeichnung der sternförmigen nicht auch auf sie anwenden
  möchte. Sie besitzen einen rundlichen, oft mehr oder
@@ -395,7 +448,7 @@ leichten aber deutlichen knopfförmigen Anschwellung unmittelbar
 unter der Grenze zwischen Rete und Hornschicht. Alle diese Verhältnisse
  lassen sich indess durch die Beschreibung schlecht schildern;
  und ich verweise deshalb auf die Zeichnung derselben in
-<a href="#tafel-xii">Taf. XII.</a> Fig. 4; sie stammt von der Volarfläche eines amputirten
+Taf. XII. <a href="#fig-4">Fig. 4</a>; sie stammt von der Volarfläche eines amputirten
 Vorderarmes. Länge und Zahl dieser peripheren Ausläufer sind
 ungemein verschieden. Die letztere schwankt zwischen zwei und
 zehn, und beträgt in der Regel fünf. Man kann dies indess an
@@ -407,7 +460,28 @@ Richtung, wie man am besten an ganz feinen Flachschnitten durch
 die oberen Schichten des Rete Malpighii erkennen kann. Man vermag
  an ihnen natürlich die Leiber der beschriebenen Körper nicht
 zu sehen und die zierlichen Bilder der Ausläufer ähneln so in hohem
- Maasse den bekannten Nervenenden der Hornhaut (Fig. 7).</p>
+ Maasse den bekannten Nervenenden der Hornhaut (<a href="#fig-7">Fig. 7</a>).</p>
+
+<section class="figure">
+<figure id="fig-4">
+<img src="figures/fig-4.png" alt="Fig. 4" width="585" height="495">
+<figcaption>
+<strong>Fig. 4. Querschnitt durch ein frisch vergoldetes Hautstück vom Vorderarm.</strong> 300/1.
+<em>v</em> Blutgefäss im Corium. <em>r</em> Rete Malpighii. <em>h</em> Untere Lagen der Hornschicht.
+</figcaption>
+</figure>
+</section>
+
+<section class="figure">
+<figure id="fig-7">
+<img src="figures/fig-7.png" alt="Fig. 7" width="300" height="285">
+<figcaption>
+<strong>Fig. 7. Flachschnitt durch die oberflächlichsten Lagen des Rete Malpighii, Haut
+des Kniees, frisch vergoldet, man sieht nur die Enden der oberen Ausläufer,
+ nicht die Zellen selbst.</strong> 650/1.
+</figcaption>
+</figure>
+</section>
 
 <p>Die Länge der Ausläufer ist wesentlich bedingt durch die
 Höhe der über dem Leibe unserer Zellen liegenden Schichten des
@@ -481,7 +555,7 @@ Fortsatzes.</p>
 <p>Die Gestalt unserer Zellen, namentlich die Menge, Richtung
 und Endigungsart ihrer peripheren Ausläufer ist eine von allen
 bekannten Formen der Bindegewebsgruppe vollständig abweichende.
-Ich verweise hier wieder auf Fig. 4, die besser als jede Beschreibung
+Ich verweise hier wieder auf <a href="#fig-4">Fig. 4</a>, die besser als jede Beschreibung
  gegen die bindegewebige Natur unserer Zellen spricht. Die
 Berechtigung aber, allein aus der Gestalt der Gebilde Schlüsse zu
 <a class="page" data-number="334"></a>
@@ -499,7 +573,7 @@ unteren Zellreihen des Rete Malpighii und seinen Eintritt in das
 Gebiet der Lederhaut festzustellen, gelingt, wenn auch der oben
 angeführten Schwierigkeiten wegen nicht immer, so doch so oft,
 dass an einer Regelmässigkeit dieses Verhältnisses gar nicht zu
-zweifeln ist (Fig. 4, 6). Dies ist namentlich in den Fällen leicht,
+zweifeln ist (<a href="#fig-4">Fig. 4</a>, <a href="#fig-6">6</a>). Dies ist namentlich in den Fällen leicht,
 in denen das gesammte Epithel einen bläulichen Farbenton angenommen
  hat, gegen den die dunkle Färbung unserer Körperchen
 auf das schärfste sich abhebt. Ungleich schwieriger ist es, den
@@ -509,7 +583,7 @@ weiteren Verlauf dieses Fortsatzes in der Lederhaut selbst festzustellen,
 Strecke lang verfolgen kann. Es gelang mir jedoch in mehreren
 Fällen, den in die Lederhaut eingetretenen Fortsatz als längeren
 rothen Faden in derselben verlaufen zu sehen, wie ich dies auf
-Fig. 6 gezeichnet habe. Ich glaube nicht, dass man berechtigt ist, diesem
+<a href="#fig-6">Fig. 6</a> gezeichnet habe. Ich glaube nicht, dass man berechtigt ist, diesem
 langen Fäden einen anderen Charakter zuzuschreiben, als den von
 Nervenfasern. Denn einerseits ist es vollkommen sicher, dass ganz
 ähnliche nervöse Fasern von dem Nervennetze der Lederhaut aus
@@ -529,6 +603,16 @@ so liegt das lediglich daran, dass ich die Schwierigkeiten des Objectes
  zu überwinden nicht im Stande bin und eine vollkommenere
 Methode noch nicht aufzufinden vermag.</p>
 
+<section class="figure">
+<figure id="fig-6">
+<img src="figures/fig-6.png" alt="Fig. 6" width="270" height="630">
+<figcaption>
+<strong>Fig. 6. Querschnitt durch ein Stück Fingerhaut, man kann den unteren Fortsatz
+sehr weit verfolgen.</strong> 300/1. <em>h</em> Hornschicht. <em>r</em> Rete. <em>p</em> Coriumpapille[.]
+</figcaption>
+</figure>
+</section>
+
 <p>Die Frage nach der Natur der beschriebenen Zellen im Rete
 Malpighii kann ich somit dahin beantworten: dass dieselben höchst
 wahrscheinlich nervöse Gebilde und die peripheren Enden ihrer
@@ -545,7 +629,7 @@ lassen.</p>
 
 <p>Dieselben bilden an allen Hautstellen, an welchen die Papillen
 flach sind oder ganz fehlen, eine regelmässige Reihe, ungefähr
-parallel der Oberfläche des Integumentum commune (Fig. 4). Sie
+parallel der Oberfläche des Integumentum commune (<a href="#fig-4">Fig. 4</a>). Sie
 stehen in der dritten, vierten oder fünften Zellreihe des Rete Malpighii,
  ungefähr durch zwei bis sechs Epithelzellen von einander
 getrennt. Ihre Zahl beträgt am Vorderarm auf einer einen Millimeter
@@ -560,7 +644,7 @@ Zellen umgeben die Papillae nervosae wie die Gefässpapillen, ebenso
 wie auch die feinen marklosen Nervenfasern in gleicher Weise
 in beide eintreten, die Menge unserer Zellen ist jedoch anscheinend
 gering, sie umgeben zwar die Köpfe der Papillen in grösserer Anzahl
- (Fig. 5), drei, fünf, ja zehn und mehr auf eine Papille, aber
+ (<a href="#fig-5">Fig. 5</a>), drei, fünf, ja zehn und mehr auf eine Papille, aber
 an den Wänden derselben, in den als Zapfen bekannten Theilen
 des Rete finden sie sich nur in beschränkter Anzahl. Die peripheren
  Ausläufer namentlich der letztgenannten Zellen erreichen meist
@@ -588,6 +672,16 @@ für die zu dieser einfachsten, verbreitetsten Function der Hautnerven
 Vielleicht sind für diese noch andere Arten der Nervenendigung
 vorhanden, vielleicht genügen unsere knopfförmigen Enden.</p>
 
+<section class="figure">
+<figure id="fig-5">
+<img src="figures/fig-5.png" alt="Fig. 5" width="360" height="405">
+<figcaption>
+<strong>Fig. 5. Flachschnitt aus der Fingerhaut.</strong> Bei p p sind die Köpfe der Papillen
+ausgefallen. 80/1.
+</figcaption>
+</figure>
+</section>
+
 <p>In dieser Beziehung ist das Vorkommen unserer Zellen an
 zwei anderen Orten interessant: an der Glans penis und im Haarbalg.
  An der Eichel finden sich unsere Zellen etwas spärlicher
@@ -613,8 +707,17 @@ jedoch weder anzugeben, wie weit nach abwärts sie sich finden,
 noch gelang mir eine Feststellung ihres Verhaltens zur Haarpapille.
 Auf Querschnitten erkennt man, dass die Leiber unserer Zellen in
 der zweiten und dritten Zellreihe der äusseren Wurzelschicht sich
-befinden (Fig. 8), während ihre auffallend feinen und zahlreichen
+befinden (<a href="#fig-8">Fig. 8</a>), während ihre auffallend feinen und zahlreichen
 Ausläufer nicht weit von der inneren Wurzelschicht enden.</p>
+
+<section class="figure">
+<figure id="fig-8">
+<img src="figures/fig-8.png" alt="Fig. 8" width="330" height="315">
+<figcaption>
+<strong>Fig. 8. Querschnitt durch den Haarbalg.</strong> 300/1. <em>a</em> Aeussere, <em>i</em> innere Wurzelscheide.
+</figcaption>
+</figure>
+</section>
 
 <p>Zum Schluss will ich noch bemerken, dass auch an der Stelle
 wo der Ausführungsgang der Schweissdrüsen in das Rete Malpighii
@@ -628,7 +731,7 @@ mit einer trichterförmigen Verdickung seiner Wandung sich einsenkt,
 <aside>
 <header>
 <h1>Erklärung der Abbildungen.</h1>
-<p><a href="#tafel-xii">Tafel XII.</a></p>
+<p>Tafel XII.</p>
 </header>
 <p>Fig. 1. Theil des Nervennetzes unter den Hautpapillen. Vom Rücken. Der Deutlichkeit
  wegen sind die Bindegewebskörper nicht mitgezeichnet. Flachschnitt.
@@ -656,11 +759,5 @@ des Kniees, frisch vergoldet, man sieht nur die Enden der oberen Ausläufer,
 &nbsp;&nbsp;&nbsp;&nbsp;<strong>22</strong></p>
 </footer>
 </article>
-
-<section class="plate">
-<figure id="tafel-xii">
-<img src="tafel-xii.gif" alt="Virchow’s Archiv. Bd. XLIV. Taf. XII." width="1225" height="1000">
-</figure>
-</section>
 </body>
 </html>
